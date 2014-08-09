@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "coffee-script": "^1.7.1",
-    "flat": "^1.2.1"
+    "flat": "^1.2.1",
+    "lodash": "^2.4.1"
   },
   "devDependencies": {
     "espower-coffee": "^0.1.0",
