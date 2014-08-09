@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Kei Fukuda"
+  },
+  "license": "MIT",
+  "name": "mongoose-visibility",
+  "version": "0.1.0",
+  "description": "visibility plugin for mongoose",
+  "keywords": [
+    "mongoose",
+    "visibility",
+    "hidden",
+    "visible"
+  ],
+  "homepage": "https://github.com/keifukuda/mongoose-visibility",
+  "bugs": "https://github.com/keifukuda/mongoose-visibility/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keifukuda/mongoose-visibility.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000 --require 'espower-coffee/guess' test/index-test.coffee"
+  },
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "flat": "^1.2.1"
+  },
+  "devDependencies": {
+    "espower-coffee": "^0.1.0",
+    "mocha": "^1.21.4",
+    "mongoose": "^3.8.14",
+    "power-assert": "^0.7.2"
+  }
+}
